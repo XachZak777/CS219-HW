@@ -1,5 +1,6 @@
-# IntelliJ / Android Studio
+# === Android Studio / IntelliJ ===
 *.iml
+**/.idea/
 **/.gradle/
 **/local.properties
 **/.idea/caches/
@@ -9,13 +10,22 @@
 **/.idea/navEditor.xml
 **/.idea/assetWizardSettings.xml
 
-# macOS
+# === macOS ===
 **/.DS_Store
 
-# Build outputs
+# === Build output ===
 **/build/
 **/captures/
 
-# External native builds
+# === External native builds ===
 **/.externalNativeBuild/
 **/.cxx/
+
+# === Gradle Wrapper ===
+**/gradle-wrapper.jar
+**/gradle-wrapper.properties
+
+# === Include XML layouts and values ===
+!**/res/layout/**/*.xml
+!**/res/values/**/*.xml
+
