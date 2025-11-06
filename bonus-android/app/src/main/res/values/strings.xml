@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Login Navigation App</string>
+    <string name="login_page">Login Page</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome, %1$s!</string>
+    <string name="logout">Logout</string>
+    <string name="please_fill_all_fields">Please fill all fields.</string>
+    <string name="xml_version">XML Version</string>
+    <string name="compose_version">Jetpack Compose Version</string>
+</resources>
+

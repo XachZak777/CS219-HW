@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LoginNavigationApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="Theme.LoginNavigationApp" parent="Base.Theme.LoginNavigationApp" />
+</resources>
+
